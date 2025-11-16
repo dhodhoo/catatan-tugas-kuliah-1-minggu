@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Catatan Tugas Kuliah Minggu Ini</title>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+    </style>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="fullscreen-request">
+      <h2>Plase Turn On Fullscreen Mode!</h2>
+      <a class="fullscreen-a" href="#">
+        <button id="fullscreen-button" class="fullscreen-button">
+          <i class="fa-solid fa-expand fa-lg"></i>
+        </button>
+        Click Here!
+      </a>
+    </div>
+
+    <header id="navbar" class="navbar">
+      <h1>DhoDho</h1>
+      <div class="container-nav-responsive">
+        <i id="hamburger-menu" class="fa-solid fa-bars fa-xl"></i>
+        <button class="theme-toggle2">&#127774;</button>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#welcome-page">Home</a></li>
+          <li><a href="#profile">Profile</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#tasks">Tasks</a></li>
+          <li><button class="theme-toggle">&#127774;</button></li>
+        </ul>
+      </nav>
+    </header>
+
+    <nav id="responsive-nav" class="responsive-nav">
+      <ul>
+        <li><a href="#welcome-page">Home</a></li>
+        <li><a href="#profile">Profile</a></li>
+        <li><a href="#schedule">Schedule</a></li>
+        <li><a href="#tasks">Tasks</a></li>
+      </ul>
+    </nav>
+    <div class="barrier"></div>
+
+    <section id="welcome-page" class="welcome-page">
+      <h2>Hello Everyone!!</h2>
+      <p>Welcome To My Website</p>
+      <p>Select Your Menu:</p>
+      <ul>
+        <li>
+          <a id="profile-menu" href="#profile">
+            <div class="background-menu">
+              <i class="fa-solid fa-user fa-xl"></i>
+            </div>
+            My Profile
+          </a>
+        </li>
+        <li>
+          <a id="schedule-menu" href="#schedule">
+            <div class="background-menu">
+              <i class="fa-solid fa-clipboard-list fa-xl"></i>
+            </div>
+            My Schedule
+          </a>
+        </li>
+        <li>
+          <a id="tasks-menu" href="#tasks">
+            <div class="background-menu">
+              <i class="fa-solid fa-list-check fa-xl"></i>
+            </div>
+            My Tasks
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section id="profile" class="profile">
+      <h2>Let You Know Me!!</h2>
+      <h3>Here Is My Profile:</h3>
+      <p>Soo, My Name Is Andhika Yuridho</p>
+      <p>Now, I'm A Student Of Telkom University</p>
+      <p>Here Is My ID Number: 707012500059</p>
+      <p>And Now, I'm On A D4SIKC-49-04 Class</p>
+      <div class="button-super-container">
+        <button class="button-greet button-styling">Let Me Greet You!</button>
+        <div class="button-container">
+          <button class="button-menu button-styling">
+            <a href="#welcome-page"><< Back To Menu</a>
+          </button>
+          <button class="button-schedule button-styling">
+            <a href="#schedule">Continue To Schedule >></a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <div id="input-section" class="input-section">
+      <input id="name-input" type="text" placeholder="What Is Your Name?" />
+      <button class="button-submit-name button-styling">Submit</button>
+      <button class="button-cancel button-styling">Cancel</button>
+    </div>
+
+    <section id="schedule" class="schedule">
+      <h2>My Schedule?</h2>
+      <h3>Sure, Here It Is:</h3>
+      <div class="my-schedule">
+        <img class="jadwal-kuliah" src="img/Jadwal_Kuliah.png" alt="" />
+      </div>
+      <div class="button-super-container">
+        <div class="button-container">
+          <button class="button-profile button-styling">
+            <a href="#profile"><< Back To Profile</a>
+          </button>
+          <button class="button-tasks button-styling">
+            <a href="#tasks">Continue To Tasks >></a>
+          </button>
+        </div>
+        <button class="button-menu button-styling">
+          <a href="#welcome-page">Back To Menu</a>
+        </button>
+      </div>
+    </section>
+
+    <section id="tasks" class="tasks">
+      <h2>And...</h2>
+      <h3>Here Is My Tasks For A Week Ago:</h3>
+      <div class="container-gallery">
+        <div class="card-1">
+          <div class="article-card">
+            <a href="#matdis"
+              ><div class="content">
+                <p class="date">10 November 2025</p>
+                <p class="title">Matematika Diskrit</p>
+              </div>
+              <img src="img/matdis1.jpg" alt="article-cover"
+            /></a>
+          </div>
+        </div>
+        <div class="card-2">
+          <div class="article-card">
+            <a href="#dap"
+              ><div class="content">
+                <p class="date">7 November 2025</p>
+                <p class="title">Desain Antarmuka Pengguna</p>
+              </div>
+              <img src="img/dap1.png" alt="article-cover"
+            /></a>
+          </div>
+        </div>
+        <div class="card-3">
+          <div class="article-card">
+            <a href="#jarkom"
+              ><div class="content">
+                <p class="date">6 November 2025</p>
+                <p class="title">Jaringan Komputer</p>
+              </div>
+              <img src="img/jarkom2.png" alt="article-cover"
+            /></a>
+          </div>
+        </div>
+        <div class="card-4">
+          <div class="article-card">
+            <a href="#alpro"
+              ><div class="content">
+                <p class="date">11 November 2025</p>
+                <p class="title">Algoritma Dan Pemrograman</p>
+              </div>
+              <img src="img/alpro1.png" alt="article-cover"
+            /></a>
+          </div>
+        </div>
+        <div class="card-5">
+          <div class="article-card">
+            <a href="#ibpk"
+              ><div class="content">
+                <p class="date">5 November 2025</p>
+                <p class="title">
+                  Internalisasi Budaya dan Pembentukan Karakter
+                </p>
+              </div>
+              <img src="img/ibpk1.png" alt="article-cover"
+            /></a>
+          </div>
+        </div>
+        <div class="card-6">
+          <div class="article-card">
+            <a href="#simkc"
+              ><div class="content">
+                <p class="date">5 November 2025</p>
+                <p class="title">Sistem Informasi Manajemen Kota Cerdas</p>
+              </div>
+              <img src="img/simkc1.png" alt="article-cover"
+            /></a>
+          </div>
+        </div>
+        <div class="card-7">
+          <div class="article-card">
+            <a href="#bing"
+              ><div class="content">
+                <p class="date">-</p>
+                <p class="title">Bahasa Inggris</p>
+              </div>
+              <img src="img/bing1.png" alt="article-cover"
+            /></a>
+          </div>
+        </div>
+        <div class="card-8">
+          <div class="article-card">
+            <a href="#pti"
+              ><div class="content">
+                <p class="date">8 November 2025</p>
+                <p class="title">Pengantar Teknologi Informasi</p>
+              </div>
+              <img src="img/pti2.png" alt="article-cover"
+            /></a>
+          </div>
+        </div>
+      </div>
+      <div class="button-container">
+        <button class="button-schedule button-styling">
+          <a href="#schedule"><< Back To Schedule</a>
+        </button>
+        <button class="button-menu button-styling">
+          <a href="#welcome-page">Back To Menu >></a>
+        </button>
+      </div>
+    </section>
+
+    <div id="task-view" class="task-view">
+      <section class="tasks-container">
+        <div id="sidebar" class="sidebar">
+          <aside class="tasks-list">
+            <ul>
+              <li><a href="#matdis">Matematika Diskrit</a></li>
+              <li><a href="#dap">Desain Antarmuka Pengguna</a></li>
+              <li><a href="#jarkom">Jaringan Komputer</a></li>
+              <li><a href="#alpro">Algoritma dan Pemrograman</a></li>
+              <li>
+                <a href="#ibpk"
+                  >Internalisasi Budaya dan Pembentukan Karakter</a
+                >
+              </li>
+              <li>
+                <a href="#simkc">Sistem Informasi Manajemen Kota Cerdas</a>
+              </li>
+              <li><a href="#bing">Bahasa Inggris</a></li>
+              <li><a href="#pti">Pengantar Teknologi Informasi</a></li>
+            </ul>
+          </aside>
+        </div>
+        <main class="content">
+          <div id="matdis" class="article task1">
+            <h2>Matematika Diskrit</h2>
+            <p>
+              Pada minggu ini, mata kuliah Matematika Diskrit memberikan
+              beberapa tugas yang berfokus pada materi matriks. Tugas-tugas
+              tersebut mencakup latihan soal abstrak serta penerapan konsep
+              matriks dalam bentuk studi kasus dunia nyata. Melalui kegiatan
+              ini, saya mulai memahami bahwa konsep matriks tidak hanya sebatas
+              operasi perhitungan matematis, tetapi juga memiliki peran penting
+              dalam penyelesaian berbagai permasalahan di bidang teknologi,
+              terutama dalam komputasi dan analisis data.
+            </p>
+            <p>
+              Selain tugas individu, dosen juga membagi mahasiswa ke dalam
+              beberapa kelompok untuk mengerjakan proyek studi kasus yang
+              berkaitan dengan penerapan matriks dan sistem persamaan linear.
+              Dalam prosesnya, kami berdiskusi dan bekerja sama untuk
+              menganalisis permasalahan yang diberikan serta mencari solusi
+              menggunakan pendekatan matematis yang telah dipelajari. Kegiatan
+              ini tidak hanya membantu dalam memperdalam pemahaman teori, tetapi
+              juga mengasah kemampuan kerja sama tim dan komunikasi antaranggota
+              kelompok.
+            </p>
+            <p>
+              Secara keseluruhan, minggu ini menjadi pengalaman belajar yang
+              cukup menantang sekaligus bermanfaat. Saya merasa lebih memahami
+              bagaimana teori yang dipelajari di kelas dapat diterapkan dalam
+              konteks nyata, serta pentingnya kolaborasi dalam menyelesaikan
+              permasalahan yang kompleks.
+            </p>
+            <div id="img-container">
+              <div class="grid-div1 matdis-grid">
+                <img src="img/matdis1.jpg" alt="" />
+              </div>
+              <div class="grid-div2 matdis-grid">
+                <img src="img/matdis2.jpg" alt="" />
+              </div>
+              <div class="grid-div3 matdis-grid">
+                <img src="img/matdis3.jpg" alt="" />
+              </div>
+              <div class="grid-div4 matdis-grid">
+                <img src="img/matdis4.jpg" alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="dap" class="article task2">
+            <h2>Desain Antarmuka Pengguna</h2>
+            <p>
+              Pada minggu ini, mata kuliah Desain Antarmuka Pengguna mempelajari
+              topik mengenai implementasi JavaScript untuk antarmuka pengguna
+              dan interaksi. Materi ini berfokus pada bagaimana JavaScript dapat
+              digunakan untuk membuat elemen pada halaman web menjadi lebih
+              dinamis dan interaktif. Melalui pembahasan ini, saya mulai
+              memahami pentingnya JavaScript dalam meningkatkan pengalaman
+              pengguna, terutama dalam menciptakan tampilan yang responsif dan
+              interaktif pada aplikasi web.
+            </p>
+            <p>
+              Selama pembelajaran, kami mempraktikkan penggunaan JavaScript
+              untuk mengatur berbagai interaksi, seperti menampilkan atau
+              menyembunyikan elemen, mengubah gaya tampilan, serta menangani
+              peristiwa (event) seperti klik tombol atau input teks. Dengan
+              latihan tersebut, saya dapat melihat secara langsung bagaimana
+              kode yang ditulis dapat memberikan dampak terhadap perilaku elemen
+              di halaman web.
+            </p>
+            <p>
+              Kegiatan ini membantu saya memperkuat pemahaman tentang
+              keterkaitan antara HTML, CSS, dan JavaScript dalam membangun
+              antarmuka pengguna yang menarik dan fungsional. Melalui
+              pembelajaran minggu ini, saya menjadi lebih percaya diri dalam
+              mengimplementasikan interaksi dasar menggunakan JavaScript pada
+              proyek web yang sedang saya kembangkan.
+            </p>
+            <div id="img-container">
+              <div class="grid-div5 dap-grid">
+                <img src="img/dap1.png" alt="" />
+              </div>
+              <div class="grid-div6 dap-grid">
+                <img src="img/dap2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="jarkom" class="article task3">
+            <h2>Jaringan Komputer</h2>
+            <p>
+              Pada minggu ini, mata kuliah Jaringan Komputer mempelajari materi
+              tentang routing statis dan dinamis pada router. Materi ini
+              berfokus pada bagaimana data dikirimkan dari satu jaringan ke
+              jaringan lain dengan menentukan jalur terbaik untuk mencapai
+              tujuan. Melalui pembelajaran ini, saya memahami bahwa routing
+              memiliki peran penting dalam memastikan proses komunikasi data
+              berjalan efisien dan stabil di dalam suatu jaringan komputer.
+            </p>
+            <p>
+              Routing statis merupakan metode konfigurasi rute secara manual
+              oleh administrator jaringan. Metode ini cenderung sederhana dan
+              stabil, namun membutuhkan penyesuaian secara manual apabila
+              terjadi perubahan pada topologi jaringan. Sementara itu, routing
+              dinamis menggunakan algoritma dan protokol seperti RIP, OSPF, atau
+              EIGRP untuk secara otomatis menyesuaikan jalur pengiriman data
+              berdasarkan kondisi jaringan. Dengan pendekatan ini, router dapat
+              memperbarui rute secara otomatis untuk mencari jalur terbaik tanpa
+              intervensi manual.
+            </p>
+            <p>
+              Selain teori yang dibahas di kelas, kami juga melakukan praktik
+              konfigurasi routing menggunakan simulator jaringan. Melalui
+              praktik tersebut, saya dapat memahami cara kerja pengaturan rute
+              untuk memastikan koneksi antarjaringan berjalan sesuai yang
+              diharapkan. Pembelajaran minggu ini memberikan wawasan yang lebih
+              mendalam tentang manajemen jaringan serta pentingnya memahami
+              konfigurasi routing dalam menjaga efisiensi dan keandalan sistem
+              komunikasi data.
+            </p>
+            <div id="img-container">
+              <div class="grid-div7 dap-grid">
+                <img src="img/jarkom1.png" alt="" />
+              </div>
+              <div class="grid-div8 dap-grid">
+                <img src="img/jarkom2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="alpro" class="article task4">
+            <h2>Algoritma dan Pemrograman</h2>
+            <p>
+              Pada minggu ini, mata kuliah Algoritma dan Pemrograman membahas
+              materi mengenai method dan array. Materi ini berfokus pada
+              pemahaman konsep dasar dalam pemrograman yang berkaitan dengan
+              efisiensi kode dan pengelolaan data. Melalui pembelajaran ini,
+              saya dapat memahami bagaimana method digunakan untuk memecah
+              program menjadi bagian-bagian yang lebih kecil dan terstruktur,
+              sehingga kode menjadi lebih mudah dipelihara dan dibaca.
+            </p>
+            <p>
+              Method berfungsi sebagai blok kode yang dapat dipanggil berulang
+              kali untuk menjalankan tugas tertentu. Dengan menerapkan method,
+              kita dapat menghindari pengulangan kode yang sama serta
+              meningkatkan modularitas program. Di sisi lain, array digunakan
+              untuk menyimpan sekumpulan data dalam satu variabel yang sama,
+              sehingga memudahkan pengelolaan dan pemrosesan data dalam jumlah
+              besar. Kombinasi antara method dan array menjadi konsep penting
+              dalam membangun program yang efisien dan terorganisir.
+            </p>
+            <p>
+              Selama pembelajaran, kami juga melakukan praktik pemrograman untuk
+              menerapkan kedua konsep tersebut. Melalui tugas latihan, saya
+              belajar bagaimana membuat method yang memproses data dalam array,
+              seperti mencari nilai maksimum, menjumlahkan elemen, atau
+              menampilkan data berdasarkan kondisi tertentu. Kegiatan ini
+              membantu saya memahami cara berpikir algoritmik yang sistematis
+              serta meningkatkan kemampuan dalam menulis kode yang lebih rapi
+              dan terstruktur.
+            </p>
+            <div id="img-container">
+              <div class="grid-div9 dap-grid">
+                <img src="img/alpro1.png" alt="" />
+              </div>
+              <div class="grid-div10 dap-grid">
+                <img src="img/alpro2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="ibpk" class="article task5">
+            <h2>Internalisasi Budaya Dan Pembentukan Karakter</h2>
+            <p>
+              Pada minggu ini, mata kuliah Internalisasi Budaya dan Pembentukan
+              Karakter membahas dua topik penting, yaitu Green Campus dan
+              Self-Management. Kedua topik ini saling berkaitan dalam membentuk
+              kesadaran mahasiswa terhadap tanggung jawab diri serta lingkungan
+              sekitar, baik di lingkungan kampus maupun dalam kehidupan
+              sehari-hari.
+            </p>
+            <p>
+              Melalui pembahasan mengenai Green Campus, saya belajar tentang
+              bagaimana peran mahasiswa dalam menjaga keberlanjutan lingkungan
+              kampus. Konsep ini menekankan pentingnya perilaku ramah
+              lingkungan, seperti mengurangi penggunaan plastik sekali pakai,
+              menghemat energi, serta menjaga kebersihan dan keindahan fasilitas
+              kampus. Green Campus bukan hanya sekadar program lingkungan,
+              tetapi juga gerakan moral yang mencerminkan nilai tanggung jawab,
+              kepedulian, dan kesadaran kolektif terhadap kelestarian alam.
+            </p>
+            <p>
+              Sementara itu, pada topik Self-Management, kami mempelajari
+              bagaimana mengelola diri secara efektif agar dapat mencapai tujuan
+              pribadi dan akademik. Self-Management meliputi kemampuan mengatur
+              waktu, mengendalikan emosi, menetapkan prioritas, serta menjaga
+              motivasi dalam menghadapi tantangan. Dengan kemampuan ini,
+              mahasiswa diharapkan mampu menjadi individu yang disiplin,
+              mandiri, dan memiliki arah hidup yang jelas.
+            </p>
+            <p>
+              Pembelajaran minggu ini memberikan wawasan yang berharga bagi saya
+              dalam membangun karakter pribadi yang peduli terhadap lingkungan
+              sekaligus mampu mengelola diri dengan baik. Kedua aspek ini
+              menjadi fondasi penting untuk tumbuh sebagai mahasiswa yang
+              berintegritas dan berkontribusi positif dalam kehidupan kampus dan
+              masyarakat.
+            </p>
+          </div>
+          <div id="simkc" class="article task6">
+            <h2>Sistem Informasi Manajemen Kota Cerdas</h2>
+            <p>
+              Pada minggu ini, mata kuliah Sistem Informasi Manajemen Kota
+              Cerdas melaksanakan kegiatan presentasi tugas besar dari setiap
+              kelompok. Kegiatan ini menjadi ajang bagi masing-masing kelompok
+              untuk memaparkan hasil kerja dan ide pengembangan sistem yang
+              telah dirancang selama beberapa minggu terakhir. Setiap kelompok
+              menampilkan konsep, rancangan, serta solusi inovatif yang
+              berkaitan dengan pengelolaan kota cerdas berbasis teknologi
+              informasi.
+            </p>
+            <p>
+              Melalui presentasi ini, saya dapat melihat ragam ide dan
+              pendekatan yang digunakan oleh kelompok lain dalam menyelesaikan
+              permasalahan kota, seperti manajemen transportasi, pengelolaan
+              sampah, sistem kesehatan digital, hingga pemantauan lingkungan.
+              Kegiatan ini tidak hanya menjadi sarana untuk melatih kemampuan
+              berbicara di depan umum, tetapi juga memperluas wawasan dan
+              memberikan inspirasi terkait penerapan sistem informasi di
+              berbagai aspek kehidupan perkotaan.
+            </p>
+            <p>
+              Selain itu, momen ini juga menjadi kesempatan untuk menerima
+              masukan dari dosen dan teman-teman mengenai kelemahan serta
+              potensi pengembangan dari proyek yang kami buat. Diskusi yang
+              terjadi selama presentasi membantu saya memahami pentingnya
+              kolaborasi, komunikasi, dan evaluasi dalam proses pengembangan
+              sistem. Pembelajaran minggu ini memberikan pengalaman berharga
+              dalam menyiapkan presentasi profesional dan memperkuat pemahaman
+              terhadap konsep kota cerdas yang berkelanjutan.
+            </p>
+            <div id="img-container">
+              <div class="responsive-grid1 grid-div7 dap-grid">
+                <img src="img/simkc1.png" alt="" />
+              </div>
+              <div class="responsive-grid2 grid-div8 dap-grid">
+                <img src="img/simkc2.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="bing" class="article task7">
+            <h2>Bahasa Inggris</h2>
+            <p>
+              Untuk Bahasa Inggris, sejauh ini saya kurang mengetahui tugasnya
+              apa saja dikarenakan saya telah lulus tes ECCT, sehingga saya
+              mendapatkan dispensasi untuk tidak masuk kelas selama 1 semester.
+            </p>
+            <div id="img-container">
+              <div class="grid-div11 dap-grid">
+                <img src="img/bing1.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div id="pti" class="article task8">
+            <h2>Pengantar Teknologi Informasi</h2>
+            <p>
+              Pada minggu ini, mata kuliah Pengantar Teknologi Informasi
+              membahas penggunaan fungsi VLOOKUP dan HLOOKUP serta pembuatan
+              diagram pie menggunakan Microsoft Excel. Materi ini membantu
+              memahami cara mencari data dengan cepat dalam tabel besar serta
+              menampilkan hasil analisis dalam bentuk visual yang lebih mudah
+              dipahami.
+            </p>
+            <p>
+              Melalui latihan yang diberikan, saya belajar menerapkan kedua
+              fungsi tersebut untuk mengolah data dan membuat grafik yang
+              informatif. Pembelajaran ini meningkatkan keterampilan saya dalam
+              mengelola serta menyajikan data secara efisien dan menarik, yang
+              sangat berguna untuk keperluan akademik maupun profesional.
+            </p>
+            <ul>
+              <li>
+                <a href="https://www.youtube.com/watch?v=N0TfJXypGBA"
+                  >Membuat Pie Chart</a
+                >
+              </li>
+              <li>
+                <a href="https://www.youtube.com/watch?v=EaLOTEZsKX8"
+                  >Membuat HLOOKUP dan VLOOKUP</a
+                >
+              </li>
+            </ul>
+            <div id="img-container">
+              <div class="responsive-grid1 grid-div7 dap-grid">
+                <img src="img/pti1.png" alt="" />
+              </div>
+              <div class="responsive-grid2 grid-div8 dap-grid">
+                <img src="img/pti2.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </main>
+      </section>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/7084b100e8.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="script.js"></script>
+  </body>
+</html>
